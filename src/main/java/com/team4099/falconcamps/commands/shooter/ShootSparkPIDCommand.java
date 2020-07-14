@@ -13,6 +13,6 @@ public class ShootSparkPIDCommand extends CommandBase {
 
     @Override
     public void initialize() {
-
+        shooter.setTargetVelocity(69);
     }
 }

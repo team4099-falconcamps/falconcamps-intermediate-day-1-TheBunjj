@@ -13,6 +13,6 @@ public class ShooterPIDSubsystemIdleCommand extends CommandBase {
 
     @Override
     public void initialize() {
-
+        shooter.setSetpoint(0);
     }
 }
